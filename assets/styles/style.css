@@ -1,0 +1,180 @@
+
+/* Creator: Rahmaniar.sr@gmail.com, Ycared@gmail.com, www.karyakami.com */
+
+body {
+max-width: 980px;
+margin: 2em auto;
+font: normal 12px/1.5 Arial, sans-serif;
+color: #353535;
+overflow-y: scroll;
+background: url("../images/skulls.png") repeat fixed !important;
+}
+.content {
+margin: 0 30px;
+}
+.field.buttons {
+margin-right: .5em;
+margin-top: 70px;
+width: 100%;
+background: url("../images/texture4.png");
+}
+.field.buttons button {
+margin-right: .5em;
+}
+
+.mainhead {
+	font-family: oswald;
+	width: 92%;
+	margin-left: 3%;
+	/*background: url("http://www.investasi.migas.esdm.go.id/images/skulls.png");*/
+	/*background-color: #fff;*/
+	height: 100%;
+	font-size: 13px;
+	padding-left: 2%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
+
+
+}
+
+.rowhead {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+.logo {
+	float: left;
+	min-width: 650px;
+	height: auto;
+	font-size: 30pt;
+}
+
+.logo img{
+	float: left;
+	width: auto;
+	height: 113px;
+	margin-top: 17px;
+	margin-bottom: 10px;
+	background-image: none;
+	padding-top: 3px;
+}
+
+.logotitle {
+	float: left;
+	width: 600px;
+	min-height: 120px;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: #000;
+}
+
+.logotitle1,.logotitle2,.logotitle3,.logotitle4 {
+	float: left;
+	min-width: 200px;
+	height: auto;
+}
+
+.logotitle1 {
+	font-family: oswald;
+	font-size: 22px;
+}
+
+.logotitle2, .logotitle3 {
+	font-family: calibri;
+	font-size: 20px;
+}
+
+.logotitle3 {
+	border-bottom: 1px solid #000;
+	padding-bottom: 2px;
+}		
+
+.logotitle4 {
+	font-family: calibri;
+	font-size: 18px;
+}	
+
+.main-content{
+	width: 100%;
+	min-height: 100px;
+	padding: 100px 0;
+	background-color: #eee;
+	border: #888 1px solid;
+	border-radius: 3px;
+}
+
+.main-content{
+	text-align: center;
+}
+
+.form-div{
+	text-align: left;
+}
+
+#invalid {
+display: none;
+float: left;
+width: 290px;
+margin-left: 120px;
+margin-top: .5em;
+color: #CC2A18;
+font-size: 130%;
+font-weight: bold;
+}
+.idealforms.adaptive #invalid {
+margin-left: 0 !important;
+}
+.idealforms.adaptive .field.buttons label {
+height: 0;
+}
+#jquery-script-menu {
+position: fixed;
+height: 90px;
+width: 100%;
+top: 0;
+left: 0;
+border-top: 5px solid #316594;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+padding: 10px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+/*-------------------------*/
+.jquery-script-center {
+width: 960px;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+.jquery-script-ads {
+width: 728px;
+height:90px;
+float:right;
+}
+.jquery-script-clear {
+clear:both;
+height:0;
+}
+.footer{
+	text-align: center;
+	margin-top: 1em
+}
+
+	
