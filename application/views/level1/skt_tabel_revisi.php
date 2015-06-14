@@ -74,11 +74,12 @@
 	
 		
 		
-		function bidang_usaha(clicked_id){
+		function bidang_usaha123(clicked_id){
+			var valueBidangUsaha = $('#bidang_usaha').val();
 				$.ajax({
 					type: "POST",
 					url: "<?php echo base_url('perusahaan/bidang_usaha/'); ?>",
-					data: {"bidang_usaha": clicked_id, '<?php echo $this->security->get_csrf_token_name(); ?>' : '<?php echo $this->security->get_csrf_hash(); ?>'},
+					data: {"bidang_usaha": valueBidangUsaha, '<?php echo $this->security->get_csrf_token_name(); ?>' : '<?php echo $this->security->get_csrf_hash(); ?>'},
 					dataType:"json",
 					success: function (response) {
 						$("#sub-bidang").html(response['bidangusaha']);	
@@ -163,7 +164,7 @@
 										</li></ul>
 										<div class="list-bidang">
 											<label class="bidang">Bidang Usaha</label>:  
-											<select id="bidang_usaha" name="bidang_usaha">
+											<select id="bidang_usaha" name="bidang_usaha" onchange="bidang_usaha123();">
 												<option value="">Pilih Bidang Usaha</option>
 												<?php $selects_bidang_usaha = selects('*', 'ref_bidang_usaha');
 													foreach ($selects_bidang_usaha as $key => $bidang_usaha):

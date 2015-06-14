@@ -368,7 +368,7 @@
 	
 		
 		
-		function bidang_usaha(clicked_id){
+		function bidang_usaha123(clicked_id){
 			var valueBidangUsaha = $('#bidang_usaha').val();
 				$.ajax({
 					type: "POST",
